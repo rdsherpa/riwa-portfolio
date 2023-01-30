@@ -41,6 +41,15 @@ const ProjectSectionStyle = styled.div`
   .swiper-button-next::after {
     font-size: 2rem;
   }
+  @media only screen and (max-width: 768px) {
+    .project__allItems {
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 7rem;
+      gap: 5rem;
+    }
+  }
 `;
 
 export default function ProjectsSection() {
@@ -49,12 +58,33 @@ export default function ProjectsSection() {
       <div className="container">
         <SectionTitle heading="Projects" subheading="some of my recent works" />
         <div className="Projects__allItems">
-          <Swiper spaceBetween={30} slidesPerView={2} navigation>
+          <Swiper
+            spaceBetween={30}
+            slidesPerView={1}
+            navigation
+            breakpoints={{
+              // when window width is > or = 640px
+              640: {
+                slidesPerView: 1,
+              },
+              // when the screen size is >= 768px
+              768: {
+                slidesPerView: 2,
+              },
+              1200: {
+                slidesPerView: 3,
+              },
+            }}
+          >
             {projects.map((project, index) => {
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>
-                  <ProjectItem />
+                  <ProjectItem
+                    title={project.name}
+                    img={project.img}
+                    desc={project.desc}
+                  />
                 </SwiperSlide>
               );
             })}

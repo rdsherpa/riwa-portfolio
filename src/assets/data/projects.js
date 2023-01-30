@@ -1,40 +1,40 @@
 import { v4 as uuidv4 } from "uuid";
-import ProjectImg from "../images/projectImg.png";
-import UTrackerImg from "../images/utracker.jpg";
-import GreenCtgImg from "../images/greenctg.jpg";
-import CoinTrackerImg from "../images/cointracker.jpg";
-import CavinImg from "../images/cavinimg.jpg";
+import EcommerceBackEngImg from "../images/EcommerceBackEnd.png";
+import WeatherAppImg from "../images/WeatherApp.png";
+import MountainExpressImg from "../images/MountainExpress.png";
+import EatSipImg from "../images/eatNsip.png";
+import NoteTakerImg from "../images/NoteTaker.png";
 
 const projects = [
   {
     id: uuidv4(),
-    name: "U Tracker",
-    desc: "An application to track your all data from one place. I developed the website and the mobile app",
-    img: UTrackerImg,
+    name: "Weather Application",
+    desc: "This application helps you check the weather of every city that you type in.",
+    img: WeatherAppImg,
   },
   {
     id: uuidv4(),
-    name: "Green CTG",
-    desc: "An app to help people to get an overview of how they can make the city beautiful.",
-    img: GreenCtgImg,
+    name: "Mountain Express",
+    desc: "Shuttle Service company providing transportation service in the Mountians of Colorado.",
+    img: MountainExpressImg,
   },
   {
     id: uuidv4(),
-    name: "Coin Tracker",
-    desc: "Using this app you can track any e coin. Also you will get a good advise about investment form the professional",
-    img: CoinTrackerImg,
+    name: "EatNSip",
+    desc: "You have left overs at home? Here is where you can make your own recipe from that.",
+    img: EatSipImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc: "A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.",
-    img: CavinImg,
+    name: "Note Taker",
+    desc: "Why put everything in mind when you have a note taker where you can manage your to do list.",
+    img: NoteTakerImg,
   },
   {
     id: uuidv4(),
-    name: "Tracking Soft",
-    desc: "A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.",
-    img: ProjectImg,
+    name: "Ecommerce Back End",
+    desc: "Here you can find how I worked on routes at the Back end to create a ecommerce for products",
+    img: EcommerceBackEngImg,
   },
 ];
 
