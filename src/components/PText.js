@@ -15,7 +15,7 @@ export default function PText({ children }) {
   return (
     <PStyle className="para">
       {/* making the text from HeroSection visible here */}
-      <p>{children}</p>
+      <p className="paras">{children}</p>
     </PStyle>
   );
 }

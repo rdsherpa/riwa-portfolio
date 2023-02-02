@@ -24,6 +24,9 @@ const AboutSectionStyle = styled.div`
     margin-top: 2rem;
     margin-left: 0;
   }
+  .paras {
+    line-height: 1em;
+  }
   .aboutSection__buttons {
     display: flex;
     align-items: center;
