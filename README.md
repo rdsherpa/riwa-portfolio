@@ -44,10 +44,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 # Links-and-Screenshot-of-My-Website
 
-![alt text](./riwa-portfolio/public/Home.png))
-![alt text](./riwa-portfolio/public/Projects.png))
-![alt text](./riwa-portfolio/public/Skills.png))
-![alt text](./riwa-portfolio/public/ContactInfo.png))
+![alt text](./public/Home.png))
+![alt text](./public/Projects.png))
+![alt text](./public/Skills.png))
+![alt text](./public/ContactInfo.png))
 
 ## Technologies Used
 
